@@ -16,13 +16,19 @@
         }
 
 #js: new Zoom({
-         el: ,放大镜的容器，必填，容器必须设置relative定位
+         el: demo ,放大镜的容器，必填，容器必须设置relative定位
+
          times:图片的放大倍数，默认为5倍,
+
          pointerAreaSize: 设置随鼠标移动的小方块的尺寸默认为50,
+
          pointerAreaBg: 设置随鼠标移动的小方框的背景颜色默认为#333,
+
          bigArea: {
            background: 放大显示区的放大图片 格式为 url(路径) 为必填项,
+
            left:相对于父容器的位置 默认在父容器的最右边，需要带单位(px) ps:选填,
+           
            top:同上默认在最上方
          }
        })
