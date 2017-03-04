@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    #demo {
+      width: 192px;
+      height: 108px;
+      position: absolute;
+      top:10%;
+      left:10%;
+      margin:-54px 0 0 -96px;
+      background: url(./aaa.min.jpg);
+      background-size: 100% 100%;
+    }
+  </style>
+</head>
+<body>
+<div id="demo">
+
+</div>
+</body>
+<script type="text/javascript" src="./zoom.js"></script>
+<script>
+
+  new Zoom({
+    el: demo,
+    times: 10,
+    pointerAreaBg:'#333',//默认为#333如果不需要改色，此行可胜略
+    bigArea: {
+
+      background: 'url(./aaa.jpg) no-repeat'
+    }
+  })
+
+</script>
+</html>
