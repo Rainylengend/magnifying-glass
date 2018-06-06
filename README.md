@@ -12,6 +12,8 @@
 
 ```
 
+> CSS
+
 ```css
 #demo{
           position:relative;
@@ -20,6 +22,8 @@
           background: /*图片的路径*/
 }
 ```
+
+> JS
 
 ```javascript
 
